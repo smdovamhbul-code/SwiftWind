@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#c7e5f0;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: whitesmoke;
+}
+.logo img{
+    width: 200px;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+input{
+    border-color: #0392d3;
+    border: border;
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+}
+a:hover{
+    transform: scale(1.2);
+}
+header{
+    position: relative;
+}
+.hero{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("logo/Al4Ot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero button{
+    width: 300px;
+    height: 100px;
+    padding: 12px 25px;
+    border: none;
+    background:rgb(33, 33, 125);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: ridge;
+    border-radius: 49px;
+    transition: 0.3s;
+    position: absolute;
+    bottom:100px;
+    left: 30px;
+}
+  
+.hero button:hover{
+    background: rgb(78, 84, 94);;
+    transform: scale(1.1);  
+}
+.products{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.product-card:hover{
+    transform: translateY(-10px);
+}
+
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3{
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.product-card p{
+    color: #0392d3;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg,#0392d3, #c7e5f0);
+    color:white;
+    margin-top:40px;
+    padding:40px 20px;
+}
+  
+.footer-content{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+}
+footer{
+    color:white;
+    text-decoration:none;
+}

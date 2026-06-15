@@ -23,8 +23,7 @@ nav{
     align-items: center;
 }
 input{
-    border-color: #0392d3;
-    border: border;
+    border: 2px solid #0392d3 ;
     width: 400px;
     height: 40px;
     border-radius: 40px;
@@ -64,8 +63,41 @@ header{
 }
   
 .hero button:hover{
-    background: rgb(78, 84, 94);;
+    background: rgb(78, 84, 94);
     transform: scale(1.1);  
+}
+.kateqoriya-cardları{
+    color: #0392d3;
+}
+#Kateqoriyalar{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.kateqori-card{
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid #0392d3;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.kateqori-card:hover{
+    transform: translateY(-10px);
+}
+
+.kateqori-card img{
+    border: 2px solid gray;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .products{
     padding: 40px 20px;
@@ -79,6 +111,7 @@ header{
     width: 250px;
     background: white;
     border-radius: 15px;
+    border: 2px solid #0392d3;
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -90,12 +123,15 @@ header{
 }
 
 .product-card img{
+    border: 2px solid gray;
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
-
+.products-section{
+    color: #0392d3;
+}
 .product-card h3{
     margin: 15px 0 10px;
     color: #333;
